@@ -1,0 +1,238 @@
+/* 
+    Created on : 29/07/2016, 14:54:10
+    Author     : Pedro Amorim
+*/
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    background: #2f2f2f;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #cacaca;
+    font-size: 16px;
+    text-shadow: 0 1px 0 #101010;
+}
+
+header {
+    /* background: #ccc url(../img/background-cerrado-600x334.jpg) no-repeat; */
+    background: #121212 url(../img/background-cerrado-1080x586.jpg) bottom no-repeat  ;
+    background-size: cover;
+    padding: 20px 0 25px 0;
+    border-bottom: 1px solid #121212;
+    box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    background: url(../img/logo-200x200.png) no-repeat;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+nav {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 15px 0 0;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    background: #353535;
+    font-size: 17px;
+}
+
+nav li a {
+    display: block;
+    color:#d5d5d5;
+    padding: 15px 0;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-top: #ECECEC solid 2px;
+    border-bottom: #ECECEC solid 1px;
+}
+
+nav li a:hover {
+    background: #ECECEC;
+    color:#333;
+    border-top: #333 solid 2px;
+    border-bottom: #333 solid 1px;
+}
+
+section {
+    padding: 2em 1em;
+    border-bottom: .1em solid #121212;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0;
+}
+
+#frase {
+    margin-top: 2px;
+    background: #f1f1f1 url(../img/frase-site3_545x300.jpg) no-repeat center left;
+}
+
+#frase p {
+    position: relative;  
+    padding: 0;
+    margin: 0;
+    font-family: 'Passion One', Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    color: #252525;
+    line-height: 1.5em;
+    text-shadow: 1px 1px 1px #f1f1f1;
+    text-align: center;
+}
+
+.titulo	{ 
+    margin: 0 0 1.5em 0;
+    padding: 0 0 0 20px;
+    font-weight: normal;
+    color: #f2f2f2;
+    border-left: .2em solid #868686;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+
+#data p {
+    text-align: center;
+    color: #e5e5e5;
+}
+
+#data p:last-of-type {
+    text-transform: uppercase;
+}
+
+#data span {
+    font-family: 'Passion One', Helvetica, Arial, sans-serif;
+    font-size: 42px;
+}
+
+#programacao h3 {
+    padding-left: 8px;
+    border-left: 2px solid #a2a2a2;
+    color: #f2f2f2;
+
+}
+
+#contato span.email {
+    background: url(../img/gmail_25x16.png) no-repeat center left;
+    padding-left: 38px;
+}
+
+#contato span.fone {
+    background: url(../img/whatsapp_20x20.png) no-repeat center left;
+    padding-left: 25px;
+}
+
+#mapa {
+    width: 100%;
+    height: 350px;
+}
+
+footer {
+    background: #484848;
+    color: #ECECEC;
+}
+
+footer ul {
+    list-style: none
+}
+
+footer li {
+    display: inline-block;
+}
+
+.social {
+    display:inline-block;
+    width: 50px; 
+    height: 50px;
+    margin-left: 10px;
+}
+
+.img-social {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: url(../img/voltar_topo_50x50.png) no-repeat center center;
+        width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+
+
+@media only screen and (min-width: 610px) {
+    nav ul {
+        list-style: none;
+        margin: 40px auto 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 17px;
+        line-height: 1em;
+        margin-right: 2%;
+    }
+
+    nav li:last-of-type{
+        margin-right: 0;
+    }
+
+    nav li a {
+        display: block;
+        color:#d5d5d5;
+        padding: 15px 15px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: #ECECEC solid 2px;
+        border-bottom: #ECECEC solid 1px;
+    }
+
+    nav li a:hover {
+        background: #ECECEC;
+        color:#333;
+        border: #333 solid 2px;
+        border-bottom: #333 solid 1px;
+    }
+    
+    #mapa {
+    width: 500px;
+    height: 350px;
+}
+}
