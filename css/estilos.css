@@ -4,10 +4,17 @@
 */
 
 main {
-    margin: 0 auto;
     width: 100%;
     background: #2f2f2f;
     padding: 0;
+}
+
+#participar p a {
+    border: 1px solid;
+    color: #121212;
+    padding: 10px;
+    text-decoration: none;
+    background: #cacaca;
 }
 
 body {
@@ -38,7 +45,6 @@ nav {
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
-
 }
 
 nav ul {
@@ -105,9 +111,7 @@ section {
     position: relative;
     font-size: 30px;
     line-height: 40px;
-
 }
-
 
 #data p {
     text-align: center;
@@ -127,12 +131,12 @@ section {
     padding-left: 8px;
     border-left: 2px solid #a2a2a2;
     color: #f2f2f2;
-
 }
 
 #contato span.email {
     background: url(../img/gmail_25x16.png) no-repeat center left;
     padding-left: 38px;
+
 }
 
 #contato span.fone {
@@ -170,13 +174,12 @@ footer li {
     height: auto;
 }
 
-
 #return-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     background: url(../img/voltar_topo_50x50.png) no-repeat center center;
-        width: 50px;
+    width: 50px;
     height: 50px;
     display: block;
     text-decoration: none;
@@ -191,10 +194,18 @@ footer li {
     transition: all 0.3s ease;
 }
 
+.email a {
+    color: #cacaca;
+}
 
 
+@media only screen and (min-width: 761px) {
 
-@media only screen and (min-width: 610px) {
+    section {
+        width: 75%;
+        margin: 0 auto;
+    }
+
     nav ul {
         list-style: none;
         margin: 40px auto 0;
@@ -230,9 +241,9 @@ footer li {
         border: #333 solid 2px;
         border-bottom: #333 solid 1px;
     }
-    
+
     #mapa {
-    width: 500px;
-    height: 350px;
-}
+        width: 500px;
+        height: 350px;
+    }
 }
